@@ -17,6 +17,7 @@ for row in csv_reader:
     dataset.append(([float(row[0]),float(row[1]),float(row[2]),float(row[3])],species[row[4]]))
 
 file.close()
+file.close()
 
 # Dataset opened and prepaared for operations
 
