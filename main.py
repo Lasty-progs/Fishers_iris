@@ -17,11 +17,10 @@ for row in csv_reader:
     dataset.append(([float(row[0]),float(row[1]),float(row[2]),float(row[3])],species[row[4]]))
 
 file.close()
-file.close()
 
 # Dataset opened and prepaared for operations
 
-def predict(input, weight):
+def predict(weight, weight):
     out = [0,0,0]
     for i in range(3):
         for j in range(4):
