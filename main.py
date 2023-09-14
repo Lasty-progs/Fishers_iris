@@ -20,7 +20,7 @@ file.close()
 
 # Dataset opened and prepaared for operations
 
-def predict(weight, weight):
+def predict(input, weight):
     out = [0,0,0]
     for i in range(3):
         for j in range(4):
